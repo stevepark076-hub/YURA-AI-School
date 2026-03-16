@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app@latest . --typescript --tailwind --app --src-dir --no-git --import-alias \"@/*\" --yes)",
+      "Read(//c/Users/ADMIN/AppData/Local/WEMEETS/yulink/yulink files/■■■Claude House■■■/**)",
+      "Bash(npx create-next-app@latest yura-ai-school-temp --typescript --tailwind --app --src-dir --no-git --import-alias \"@/*\" --yes)",
+      "Bash(TARGET=\"/c/Users/ADMIN/AppData/Local/WEMEETS/yulink/yulink files/■■■Claude House■■■/YURA AI School\")",
+      "Bash(SOURCE=\"/c/Users/ADMIN/AppData/Local/WEMEETS/yulink/yulink files/■■■Claude House■■■/yura-ai-school-temp\")",
+      "Bash(for f:*)",
+      "Bash(do cp:*)",
+      "Bash(echo \"Copied $f\")",
+      "Bash(done)",
+      "Bash(cp -r \"$SOURCE/public\" \"$TARGET/\")",
+      "Bash(npm install:*)",
+      "Bash(node -e \"console.log\\(require\\(''/c/Users/ADMIN/AppData/Local/WEMEETS/yulink/yulink files/■■■Claude House■■■/YURA AI School/node_modules/@supabase/supabase-js/package.json''\\).version\\)\")",
+      "Bash(node -e \"console.log\\(require\\(''/c/Users/ADMIN/AppData/Local/WEMEETS/yulink/yulink files/■■■Claude House■■■/YURA AI School/node_modules/@supabase/ssr/package.json''\\).version\\)\")",
+      "Bash(node -e \"console.log\\(require\\(''/c/Users/ADMIN/AppData/Local/WEMEETS/yulink/yulink files/■■■Claude House■■■/YURA AI School/node_modules/xlsx/package.json''\\).version\\)\")",
+      "Bash(node -e \"console.log\\(require\\(''/c/Users/ADMIN/AppData/Local/WEMEETS/yulink/yulink files/■■■Claude House■■■/YURA AI School/node_modules/tailwindcss/package.json''\\).version\\)\")",
+      "Bash(npm run:*)",
+      "Bash(node node_modules/next/dist/bin/next build)"
+    ]
+  }
+}
